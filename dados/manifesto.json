@@ -1,0 +1,1132 @@
+{
+  "series": [
+    {
+      "id": "6_ano",
+      "nome": "6º Ano",
+      "aulas": [
+        {
+          "id": "6_ano_conjuntos_numericos_numeros_naturais",
+          "titulo": "Conjuntos Numéricos (Números Naturais)",
+          "arquivo": "dados/6_ano/aula_01.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "6_ano_conjuntos_numericos_aplicacao_do_sistema_de_numeracao_romano",
+          "titulo": "Conjuntos Numéricos - Aplicação do Sistema de Numeração Romano",
+          "arquivo": "dados/6_ano/aula_02.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "6_ano_conjuntos_numericos_introducao_aos_numeros_romanos",
+          "titulo": "Conjuntos Numéricos (Introdução aos Números Romanos)",
+          "arquivo": "dados/6_ano/aula_03.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "6_ano_multiplicacao_de_numeros_decimais_naturais_por_decimais_e_decimais_por_decimais",
+          "titulo": "Multiplicação de Números Decimais (Naturais por Decimais e Decimais por Decimais)",
+          "arquivo": "dados/6_ano/aula_04.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "6_ano_numeros_decimais_multiplicacao_e_divisao_na_base_10",
+          "titulo": "Números Decimais (Multiplicação e Divisão na Base 10)",
+          "arquivo": "dados/6_ano/aula_05.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "6_ano_representacao_dos_numeros_decimais_exatos_na_reta_numerica",
+          "titulo": "Representação dos Números Decimais Exatos na Reta Numérica",
+          "arquivo": "dados/6_ano/aula_06.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "6_ano_fracao_introducao",
+          "titulo": "Fração - Introdução",
+          "arquivo": "dados/6_ano/aula_07.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "6_ano_fracao_classificacao_propria_impropria_aparente_mista",
+          "titulo": "Fração - Classificação (Própria, Imprópria, Aparente, Mista)",
+          "arquivo": "dados/6_ano/aula_08.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "6_ano_fracao_equivalente_e_simplificacao_de_fracao",
+          "titulo": "Fração Equivalente e Simplificação de Fração",
+          "arquivo": "dados/6_ano/aula_09.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "6_ano_fracao_adicao_e_subtracao",
+          "titulo": "Fração - Adição e Subtração",
+          "arquivo": "dados/6_ano/aula_10.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "6_ano_fracao_mista_calculo",
+          "titulo": "Fração Mista - Cálculo",
+          "arquivo": "dados/6_ano/aula_11.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "6_ano_como_encontrar_os_divisores_de_um_numero_natural",
+          "titulo": "Como Encontrar os Divisores de um Número Natural",
+          "arquivo": "dados/6_ano/aula_12.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "6_ano_numero_de_divisores_de_um_numero_natural",
+          "titulo": "Número de Divisores de um Número Natural",
+          "arquivo": "dados/6_ano/aula_13.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "6_ano_introducao_a_potencia_e_propriedades_multiplicacao_e_divisao_de_potencia_de_mesma_base",
+          "titulo": "Introdução à Potência e Propriedades (Multiplicação e Divisão de Potência de Mesma Base)",
+          "arquivo": "dados/6_ano/aula_14.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "6_ano_potenciacao_de_fracoes",
+          "titulo": "Potenciação de Frações",
+          "arquivo": "dados/6_ano/aula_15.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "6_ano_dizimas_periodicas",
+          "titulo": "Dízimas Periódicas",
+          "arquivo": "dados/6_ano/aula_16.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "6_ano_dizimas_periodicas_fracao_geratriz",
+          "titulo": "Dízimas Periódicas (Fração Geratriz)",
+          "arquivo": "dados/6_ano/aula_17.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "6_ano_plano_cartesiano",
+          "titulo": "Plano Cartesiano",
+          "arquivo": "dados/6_ano/aula_18.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "6_ano_angulos",
+          "titulo": "Ângulos",
+          "arquivo": "dados/6_ano/aula_19.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "6_ano_geometria_espacial_definicao_elementos_primitivos_ponto_reta_plano",
+          "titulo": "Geometria Espacial - Definição Elementos Primitivos (Ponto, Reta, Plano)",
+          "arquivo": "dados/6_ano/aula_20.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "6_ano_geometria_espacial_posicao_relativa_entre_duas_retas_e_um_plano",
+          "titulo": "Geometria Espacial - Posição Relativa entre Duas Retas e um Plano",
+          "arquivo": "dados/6_ano/aula_21.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "6_ano_geometria_espacial_semirreta_e_segmento_de_reta",
+          "titulo": "Geometria Espacial - Semirreta e Segmento de Reta",
+          "arquivo": "dados/6_ano/aula_22.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "6_ano_poligonos_definicao_elementos_e_classificacao",
+          "titulo": "Polígonos (Definição, Elementos e Classificação)",
+          "arquivo": "dados/6_ano/aula_23.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "6_ano_triangulos",
+          "titulo": "Triângulos",
+          "arquivo": "dados/6_ano/aula_24.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "6_ano_media_aritmetica",
+          "titulo": "Média Aritmética",
+          "arquivo": "dados/6_ano/aula_25.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "6_ano_estatistica",
+          "titulo": "Estatística",
+          "arquivo": "dados/6_ano/aula_26.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "6_ano_circunferencia_e_circulo",
+          "titulo": "Circunferência e Círculo",
+          "arquivo": "dados/6_ano/aula_27.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "6_ano_medidas_de_comprimento_transformacao",
+          "titulo": "Medidas de Comprimento (Transformação)",
+          "arquivo": "dados/6_ano/aula_28.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "6_ano_medidas_de_superficie_transformacao",
+          "titulo": "Medidas de Superfície (Transformação)",
+          "arquivo": "dados/6_ano/aula_29.json",
+          "total_etapas": 18
+        }
+      ]
+    },
+    {
+      "id": "7_ano",
+      "nome": "7º Ano",
+      "aulas": [
+        {
+          "id": "7_ano_radiciacao_de_numeros_inteiros_e_racionais",
+          "titulo": "Radiciação de Números Inteiros e Racionais",
+          "arquivo": "dados/7_ano/aula_01.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "7_ano_potencia_multiplicacao_e_divisao_de_potencias_de_mesma_base",
+          "titulo": "Potência (Multiplicação e Divisão de Potências de Mesma Base)",
+          "arquivo": "dados/7_ano/aula_02.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "7_ano_potenciacao_de_numeros_inteiros_e_racionais",
+          "titulo": "Potenciação de Números Inteiros e Racionais",
+          "arquivo": "dados/7_ano/aula_03.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "7_ano_potenciacao_de_numeros_decimais",
+          "titulo": "Potenciação de Números Decimais",
+          "arquivo": "dados/7_ano/aula_04.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "7_ano_equacao_do_primeiro_grau_com_uma_incognita",
+          "titulo": "Equação do Primeiro Grau com uma Incógnita",
+          "arquivo": "dados/7_ano/aula_05.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "7_ano_sistema_de_equacoes_do_primeiro_grau_com_duas_incognitas",
+          "titulo": "Sistema de Equações do Primeiro Grau com Duas Incógnitas",
+          "arquivo": "dados/7_ano/aula_06.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "7_ano_inequacao_do_1_grau_conceito_resolucao_e_representacao",
+          "titulo": "Inequação do 1º Grau (Conceito, Resolução e Representação)",
+          "arquivo": "dados/7_ano/aula_07.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "7_ano_inequacao_do_1_grau_aplicacoes_e_problemas",
+          "titulo": "Inequação do 1º Grau (Aplicações e Problemas)",
+          "arquivo": "dados/7_ano/aula_08.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "7_ano_grandezas_diretamente_e_inversamente_proporcionais",
+          "titulo": "Grandezas (Diretamente e Inversamente Proporcionais)",
+          "arquivo": "dados/7_ano/aula_09.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "7_ano_regra_de_tres_composta",
+          "titulo": "Regra de Três Composta",
+          "arquivo": "dados/7_ano/aula_10.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "7_ano_regra_de_tres_simples",
+          "titulo": "Regra de Três Simples",
+          "arquivo": "dados/7_ano/aula_11.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "7_ano_estatistica",
+          "titulo": "Estatística",
+          "arquivo": "dados/7_ano/aula_12.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "7_ano_probabilidade",
+          "titulo": "Probabilidade",
+          "arquivo": "dados/7_ano/aula_13.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "7_ano_triangulos",
+          "titulo": "Triângulos",
+          "arquivo": "dados/7_ano/aula_14.json",
+          "total_etapas": 18
+        }
+      ]
+    },
+    {
+      "id": "8_ano",
+      "nome": "8º Ano",
+      "aulas": [
+        {
+          "id": "8_ano_potencia_propriedades_parte_1",
+          "titulo": "Potência (Propriedades) - Parte 1",
+          "arquivo": "dados/8_ano/aula_01.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "8_ano_potencia_propriedades_parte_2",
+          "titulo": "Potência (Propriedades) - Parte 2",
+          "arquivo": "dados/8_ano/aula_02.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "8_ano_radiciacao_propriedades_parte_1",
+          "titulo": "Radiciação (Propriedades) - Parte 1",
+          "arquivo": "dados/8_ano/aula_03.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "8_ano_estatistica_media_moda_mediana",
+          "titulo": "Estatística (Média, Moda, Mediana)",
+          "arquivo": "dados/8_ano/aula_04.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "8_ano_plano_cartesiano",
+          "titulo": "Plano Cartesiano",
+          "arquivo": "dados/8_ano/aula_05.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "8_ano_medidas_de_dispersao_amplitude",
+          "titulo": "Medidas de Dispersão (Amplitude)",
+          "arquivo": "dados/8_ano/aula_06.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "8_ano_estatistica",
+          "titulo": "Estatística",
+          "arquivo": "dados/8_ano/aula_07.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "8_ano_porcentagem",
+          "titulo": "Porcentagem",
+          "arquivo": "dados/8_ano/aula_08.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "8_ano_probabilidade",
+          "titulo": "Probabilidade",
+          "arquivo": "dados/8_ano/aula_09.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "8_ano_produtos_notaveis_prova_geometrica",
+          "titulo": "Produtos Notáveis (Prova Geométrica)",
+          "arquivo": "dados/8_ano/aula_10.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "8_ano_area_de_figuras_planas_demonstracao",
+          "titulo": "Área de Figuras Planas (Demonstração)",
+          "arquivo": "dados/8_ano/aula_11.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "8_ano_triangulos_cevianas",
+          "titulo": "Triângulos (Cevianas)",
+          "arquivo": "dados/8_ano/aula_12.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "8_ano_triangulos_elementos_formadores_desigualdade_triangular_classificacao",
+          "titulo": "Triângulos (Elementos Formadores, Desigualdade Triangular, Classificação)",
+          "arquivo": "dados/8_ano/aula_13.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "8_ano_posicao_relativa_entre_reta_e_circunferencia",
+          "titulo": "Posição Relativa entre Reta e Circunferência",
+          "arquivo": "dados/8_ano/aula_14.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "8_ano_teorema_de_pitagoras_prova_geometrica",
+          "titulo": "Teorema de Pitágoras (Prova Geométrica)",
+          "arquivo": "dados/8_ano/aula_15.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "8_ano_circunferencia_e_circulo",
+          "titulo": "Circunferência e Círculo",
+          "arquivo": "dados/8_ano/aula_16.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "8_ano_posicao_relativa_entre_duas_circunferencias",
+          "titulo": "Posição Relativa entre Duas Circunferências",
+          "arquivo": "dados/8_ano/aula_17.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "8_ano_sistema_de_equacao_do_primeiro_grau_com_duas_incognitas_metodos_de_resolucao",
+          "titulo": "Sistema de Equação do Primeiro Grau com Duas Incógnitas (Métodos de Resolução)",
+          "arquivo": "dados/8_ano/aula_18.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "8_ano_sistema_de_equacao_do_primeiro_grau_fracionaria_com_duas_incognitas_metodos_de_resolucao",
+          "titulo": "Sistema de Equação do Primeiro Grau Fracionária com Duas Incógnitas (Métodos de Resolução)",
+          "arquivo": "dados/8_ano/aula_19.json",
+          "total_etapas": 18
+        }
+      ]
+    },
+    {
+      "id": "9_ano",
+      "nome": "9º Ano",
+      "aulas": [
+        {
+          "id": "9_ano_potencia_propriedades_parte_1_revisao",
+          "titulo": "Potência (Propriedades) - Parte 1 - Revisão",
+          "arquivo": "dados/9_ano/aula_01.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "9_ano_potencia_propriedades_parte_2_revisao",
+          "titulo": "Potência (Propriedades) - Parte 2 - Revisão",
+          "arquivo": "dados/9_ano/aula_02.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "9_ano_potenciacao_de_numeros_racionais_revisao",
+          "titulo": "Potenciação de Números Racionais - Revisão",
+          "arquivo": "dados/9_ano/aula_03.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "9_ano_potencia_de_base_10_e_notacao_cientifica",
+          "titulo": "Potência de Base 10 e Notação Científica",
+          "arquivo": "dados/9_ano/aula_04.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "9_ano_equacao_do_segundo_grau",
+          "titulo": "Equação do Segundo Grau",
+          "arquivo": "dados/9_ano/aula_05.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "9_ano_definicao_de_funcao",
+          "titulo": "Definição de Função",
+          "arquivo": "dados/9_ano/aula_06.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "9_ano_distancia_entre_dois_pontos",
+          "titulo": "Distância entre Dois Pontos",
+          "arquivo": "dados/9_ano/aula_07.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "9_ano_dominio_e_imagem_de_uma_funcao_atraves_do_grafico",
+          "titulo": "Domínio e Imagem de uma Função através do Gráfico",
+          "arquivo": "dados/9_ano/aula_08.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "9_ano_funcao_afim_construcao_grafica",
+          "titulo": "Função Afim (Construção Gráfica)",
+          "arquivo": "dados/9_ano/aula_09.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "9_ano_funcao_afim",
+          "titulo": "Função Afim",
+          "arquivo": "dados/9_ano/aula_10.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "9_ano_funcao_quadratica_coordenadas_do_vertice_da_parabola",
+          "titulo": "Função Quadrática (Coordenadas do Vértice da Parábola)",
+          "arquivo": "dados/9_ano/aula_11.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "9_ano_funcao_quadratica",
+          "titulo": "Função Quadrática",
+          "arquivo": "dados/9_ano/aula_12.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "9_ano_posicao_relativa_entre_reta_e_circunferencia",
+          "titulo": "Posição Relativa entre Reta e Circunferência",
+          "arquivo": "dados/9_ano/aula_13.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "9_ano_solidos_platonicos_e_relacao_de_euler",
+          "titulo": "Sólidos Platônicos e Relação de Euler",
+          "arquivo": "dados/9_ano/aula_14.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "9_ano_trigonometria",
+          "titulo": "Trigonometria",
+          "arquivo": "dados/9_ano/aula_15.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "9_ano_probabilidade",
+          "titulo": "Probabilidade",
+          "arquivo": "dados/9_ano/aula_16.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "9_ano_estatistica_media_moda_mediana",
+          "titulo": "Estatística (Média, Moda, Mediana)",
+          "arquivo": "dados/9_ano/aula_17.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "9_ano_relacoes_metricas_no_triangulo_retangulo",
+          "titulo": "Relações Métricas no Triângulo Retângulo",
+          "arquivo": "dados/9_ano/aula_18.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "9_ano_juros_simples",
+          "titulo": "Juros Simples",
+          "arquivo": "dados/9_ano/aula_19.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "9_ano_teorema_de_tales",
+          "titulo": "Teorema de Tales",
+          "arquivo": "dados/9_ano/aula_20.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "9_ano_teorema_de_tales_demonstracao",
+          "titulo": "Teorema de Tales (Demonstração)",
+          "arquivo": "dados/9_ano/aula_21.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "9_ano_racionalizacao_de_denominadores",
+          "titulo": "Racionalização de Denominadores",
+          "arquivo": "dados/9_ano/aula_22.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "9_ano_radiciacao_propriedades_revisao",
+          "titulo": "Radiciação (Propriedades) - Revisão",
+          "arquivo": "dados/9_ano/aula_23.json",
+          "total_etapas": 18
+        }
+      ]
+    },
+    {
+      "id": "1_em",
+      "nome": "1º Ano - Ensino Médio",
+      "aulas": [
+        {
+          "id": "1_em_potencia_de_base_10_e_notacao_cientifica_revisao",
+          "titulo": "Potência de Base 10 e Notação Científica (Revisão)",
+          "arquivo": "dados/1_em/aula_01.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "1_em_conjuntos_introducao",
+          "titulo": "Conjuntos (Introdução)",
+          "arquivo": "dados/1_em/aula_02.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "1_em_conjuntos_numericos",
+          "titulo": "Conjuntos Numéricos",
+          "arquivo": "dados/1_em/aula_03.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "1_em_definicao_de_funcao_e_dominio_contradominio_e_imagem",
+          "titulo": "Definição de Função e Domínio, Contradomínio e Imagem",
+          "arquivo": "dados/1_em/aula_04.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "1_em_inequacao_do_1_grau_com_uma_variavel_introducao",
+          "titulo": "Inequação do 1º Grau com uma Variável (Introdução)",
+          "arquivo": "dados/1_em/aula_05.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "1_em_inequacao_do_1_grau_com_uma_variavel_resolucao",
+          "titulo": "Inequação do 1º Grau com uma Variável (Resolução)",
+          "arquivo": "dados/1_em/aula_06.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "1_em_funcao_afim_introducao",
+          "titulo": "Função Afim (Introdução)",
+          "arquivo": "dados/1_em/aula_07.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "1_em_funcao_afim_construcao_grafica",
+          "titulo": "Função Afim (Construção Gráfica)",
+          "arquivo": "dados/1_em/aula_08.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "1_em_funcao_quadratica_introducao",
+          "titulo": "Função Quadrática (Introdução)",
+          "arquivo": "dados/1_em/aula_09.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "1_em_funcao_quadratica_coordenadas_do_vertice_da_parabola",
+          "titulo": "Função Quadrática (Coordenadas do Vértice da Parábola)",
+          "arquivo": "dados/1_em/aula_10.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "1_em_funcao_exponencial_introducao",
+          "titulo": "Função Exponencial (Introdução)",
+          "arquivo": "dados/1_em/aula_11.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "1_em_equacao_exponencial_parte_1",
+          "titulo": "Equação Exponencial (Parte 1)",
+          "arquivo": "dados/1_em/aula_12.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "1_em_funcao_exponencial_grafico",
+          "titulo": "Função Exponencial (Gráfico)",
+          "arquivo": "dados/1_em/aula_13.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "1_em_progressao_aritmetica_introducao",
+          "titulo": "Progressão Aritmética (Introdução)",
+          "arquivo": "dados/1_em/aula_14.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "1_em_progressao_aritmetica_soma_dos_n_termos",
+          "titulo": "Progressão Aritmética (Soma dos n Termos)",
+          "arquivo": "dados/1_em/aula_15.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "1_em_progressao_aritmetica_interpolacao_aritmetica",
+          "titulo": "Progressão Aritmética (Interpolação Aritmética)",
+          "arquivo": "dados/1_em/aula_16.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "1_em_progressao_aritmetica_formula_do_termo_geral_visualmente",
+          "titulo": "Progressão Aritmética (Fórmula do Termo Geral - Visualmente)",
+          "arquivo": "dados/1_em/aula_17.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "1_em_angulos",
+          "titulo": "Ângulos",
+          "arquivo": "dados/1_em/aula_18.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "1_em_pontos_notaveis_no_triangulo",
+          "titulo": "Pontos Notáveis no Triângulo",
+          "arquivo": "dados/1_em/aula_19.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "1_em_teorema_de_pitagoras_prova_geometrica",
+          "titulo": "Teorema de Pitágoras (Prova Geométrica)",
+          "arquivo": "dados/1_em/aula_20.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "1_em_relacoes_metricas_no_triangulo_retangulo",
+          "titulo": "Relações Métricas no Triângulo Retângulo",
+          "arquivo": "dados/1_em/aula_21.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "1_em_juros_simples",
+          "titulo": "Juros Simples",
+          "arquivo": "dados/1_em/aula_22.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "1_em_juros_compostos",
+          "titulo": "Juros Compostos",
+          "arquivo": "dados/1_em/aula_23.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "1_em_logaritmo_parte_1",
+          "titulo": "Logaritmo (Parte 1)",
+          "arquivo": "dados/1_em/aula_24.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "1_em_logaritmo_parte_2",
+          "titulo": "Logaritmo (Parte 2)",
+          "arquivo": "dados/1_em/aula_25.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "1_em_logaritmo_parte_3",
+          "titulo": "Logaritmo (Parte 3)",
+          "arquivo": "dados/1_em/aula_26.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "1_em_funcao_logaritmica",
+          "titulo": "Função Logarítmica",
+          "arquivo": "dados/1_em/aula_27.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "1_em_equacao_logaritmica",
+          "titulo": "Equação Logarítmica",
+          "arquivo": "dados/1_em/aula_28.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "1_em_racionalizacao_de_denominadores_revisao",
+          "titulo": "Racionalização de Denominadores (Revisão)",
+          "arquivo": "dados/1_em/aula_29.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "1_em_progressao_geometrica_introducao",
+          "titulo": "Progressão Geométrica (Introdução)",
+          "arquivo": "dados/1_em/aula_30.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "1_em_progressao_geometrica_soma_da_p_g_infinita",
+          "titulo": "Progressão Geométrica (Soma da P.G. Infinita)",
+          "arquivo": "dados/1_em/aula_31.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "1_em_teorema_de_tales_demonstracao",
+          "titulo": "Teorema de Tales (Demonstração)",
+          "arquivo": "dados/1_em/aula_32.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "1_em_teorema_de_tales",
+          "titulo": "Teorema de Tales",
+          "arquivo": "dados/1_em/aula_33.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "1_em_trigonometria_no_triangulo_retangulo_e_relacao_fundamental",
+          "titulo": "Trigonometria no Triângulo Retângulo e Relação Fundamental",
+          "arquivo": "dados/1_em/aula_34.json",
+          "total_etapas": 18
+        }
+      ]
+    },
+    {
+      "id": "2_em",
+      "nome": "2º Ano - Ensino Médio",
+      "aulas": [
+        {
+          "id": "2_em_matriz",
+          "titulo": "Matriz",
+          "arquivo": "dados/2_em/aula_01.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "2_em_matriz_adicao",
+          "titulo": "Matriz (Adição)",
+          "arquivo": "dados/2_em/aula_02.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "2_em_matriz_produtos",
+          "titulo": "Matriz (Produtos)",
+          "arquivo": "dados/2_em/aula_03.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "2_em_matriz_transposta_e_simetrica",
+          "titulo": "Matriz (Transposta e Simétrica)",
+          "arquivo": "dados/2_em/aula_04.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "2_em_geometria_espacial_volume_de_corpos_redondos",
+          "titulo": "Geometria Espacial - Volume de Corpos Redondos",
+          "arquivo": "dados/2_em/aula_05.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "2_em_geometria_espacial_volume_da_piramide",
+          "titulo": "Geometria Espacial - Volume da Pirâmide",
+          "arquivo": "dados/2_em/aula_06.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "2_em_geometria_espacial_area_da_piramide",
+          "titulo": "Geometria Espacial - Área da Pirâmide",
+          "arquivo": "dados/2_em/aula_07.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "2_em_geometria_espacial_piramide_definicao_e_elementos",
+          "titulo": "Geometria Espacial - Pirâmide - Definição e Elementos",
+          "arquivo": "dados/2_em/aula_08.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "2_em_geometria_espacial_area_de_corpos_redondos",
+          "titulo": "Geometria Espacial - Área de Corpos Redondos",
+          "arquivo": "dados/2_em/aula_09.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "2_em_geometria_espacial_definicao_elementos_primitivos_ponto_reta_plano",
+          "titulo": "Geometria Espacial - Definição Elementos Primitivos (Ponto, Reta, Plano)",
+          "arquivo": "dados/2_em/aula_10.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "2_em_geometria_espacial_introducao",
+          "titulo": "Geometria Espacial - Introdução",
+          "arquivo": "dados/2_em/aula_11.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "2_em_geometria_espacial_revolucao_de_corpos_redondos",
+          "titulo": "Geometria Espacial - Revolução de Corpos Redondos",
+          "arquivo": "dados/2_em/aula_12.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "2_em_geometria_espacial_area_do_prisma",
+          "titulo": "Geometria Espacial - Área do Prisma",
+          "arquivo": "dados/2_em/aula_13.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "2_em_geometria_plana_volume_do_prisma_e_principio_de_cavalieri",
+          "titulo": "Geometria Plana - Volume do Prisma e Princípio de Cavalieri",
+          "arquivo": "dados/2_em/aula_14.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "2_em_geometria_espacial_area_do_hexagono_regular_demonstracao",
+          "titulo": "Geometria Espacial - Área do Hexágono Regular (Demonstração)",
+          "arquivo": "dados/2_em/aula_15.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "2_em_geometria_espacial_cubo_diagonal_area_e_volume",
+          "titulo": "Geometria Espacial - Cubo (Diagonal, Área e Volume)",
+          "arquivo": "dados/2_em/aula_16.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "2_em_geometria_espacial_faces_e_arestas_visao_espacial",
+          "titulo": "Geometria Espacial - Faces e Arestas (Visão Espacial)",
+          "arquivo": "dados/2_em/aula_17.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "2_em_area_de_figuras_planas_demonstracao",
+          "titulo": "Área de Figuras Planas (Demonstração)",
+          "arquivo": "dados/2_em/aula_18.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "2_em_analise_combinatoria_principio_fundamental_da_contagem_1",
+          "titulo": "Análise Combinatória (Princípio Fundamental da Contagem) (1)",
+          "arquivo": "dados/2_em/aula_19.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "2_em_analise_combinatoria_combinacao_e_arranjo",
+          "titulo": "Análise Combinatória (Combinação e Arranjo)",
+          "arquivo": "dados/2_em/aula_20.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "2_em_analise_combinatoria_permutacao_simples",
+          "titulo": "Análise Combinatória (Permutação Simples)",
+          "arquivo": "dados/2_em/aula_21.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "2_em_analise_combinatoria_permutacao_com_repeticao",
+          "titulo": "Análise Combinatória (Permutação com Repetição)",
+          "arquivo": "dados/2_em/aula_22.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "2_em_analise_combinatoria_permutacao_circular",
+          "titulo": "Análise Combinatória (Permutação Circular)",
+          "arquivo": "dados/2_em/aula_23.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "2_em_probabilidade_introducao",
+          "titulo": "Probabilidade (Introdução)",
+          "arquivo": "dados/2_em/aula_24.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "2_em_analise_combinatoria_fatorial",
+          "titulo": "Análise Combinatória (Fatorial)",
+          "arquivo": "dados/2_em/aula_25.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "2_em_analise_combinatoria_fatorial_visualmente",
+          "titulo": "Análise Combinatória (Fatorial Visualmente)",
+          "arquivo": "dados/2_em/aula_26.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "2_em_trigonometria_arcos_e_angulos",
+          "titulo": "Trigonometria - Arcos e Ângulos",
+          "arquivo": "dados/2_em/aula_27.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "2_em_trigonometria_relacoes_fundamentais",
+          "titulo": "Trigonometria - Relações Fundamentais",
+          "arquivo": "dados/2_em/aula_28.json",
+          "total_etapas": 18
+        }
+      ]
+    },
+    {
+      "id": "3_em",
+      "nome": "3º Ano - Ensino Médio",
+      "aulas": [
+        {
+          "id": "3_em_potencia_de_base_10_e_notacao_cientifica_revisao",
+          "titulo": "Potência de Base 10 e Notação Científica (Revisão)",
+          "arquivo": "dados/3_em/aula_01.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "3_em_conjuntos_introducao",
+          "titulo": "Conjuntos (Introdução)",
+          "arquivo": "dados/3_em/aula_02.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "3_em_conjuntos_numericos",
+          "titulo": "Conjuntos Numéricos",
+          "arquivo": "dados/3_em/aula_03.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "3_em_definicao_de_funcao_e_dominio_contradominio_e_imagem",
+          "titulo": "Definição de Função e Domínio, Contradomínio e Imagem",
+          "arquivo": "dados/3_em/aula_04.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "3_em_inequacao_do_1_grau_com_uma_variavel_introducao",
+          "titulo": "Inequação do 1º Grau com uma Variável (Introdução)",
+          "arquivo": "dados/3_em/aula_05.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "3_em_inequacao_do_1_grau_com_uma_variavel_resolucao",
+          "titulo": "Inequação do 1º Grau com uma Variável (Resolução)",
+          "arquivo": "dados/3_em/aula_06.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "3_em_funcao_afim_introducao",
+          "titulo": "Função Afim (Introdução)",
+          "arquivo": "dados/3_em/aula_07.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "3_em_funcao_afim_construcao_grafica",
+          "titulo": "Função Afim (Construção Gráfica)",
+          "arquivo": "dados/3_em/aula_08.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "3_em_funcao_quadratica_introducao",
+          "titulo": "Função Quadrática (Introdução)",
+          "arquivo": "dados/3_em/aula_09.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "3_em_funcao_quadratica_coordenadas_do_vertice_da_parabola",
+          "titulo": "Função Quadrática (Coordenadas do Vértice da Parábola)",
+          "arquivo": "dados/3_em/aula_10.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "3_em_funcao_exponencial_introducao",
+          "titulo": "Função Exponencial (Introdução)",
+          "arquivo": "dados/3_em/aula_11.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "3_em_equacao_exponencial_parte_1",
+          "titulo": "Equação Exponencial (Parte 1)",
+          "arquivo": "dados/3_em/aula_12.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "3_em_funcao_exponencial_grafico",
+          "titulo": "Função Exponencial (Gráfico)",
+          "arquivo": "dados/3_em/aula_13.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "3_em_progressao_aritmetica_introducao",
+          "titulo": "Progressão Aritmética (Introdução)",
+          "arquivo": "dados/3_em/aula_14.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "3_em_progressao_aritmetica_soma_dos_n_termos",
+          "titulo": "Progressão Aritmética (Soma dos n Termos)",
+          "arquivo": "dados/3_em/aula_15.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "3_em_progressao_aritmetica_interpolacao_aritmetica",
+          "titulo": "Progressão Aritmética (Interpolação Aritmética)",
+          "arquivo": "dados/3_em/aula_16.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "3_em_progressao_aritmetica_formula_do_termo_geral_visualmente",
+          "titulo": "Progressão Aritmética (Fórmula do Termo Geral - Visualmente)",
+          "arquivo": "dados/3_em/aula_17.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "3_em_angulos",
+          "titulo": "Ângulos",
+          "arquivo": "dados/3_em/aula_18.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "3_em_pontos_notaveis_no_triangulo",
+          "titulo": "Pontos Notáveis no Triângulo",
+          "arquivo": "dados/3_em/aula_19.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "3_em_teorema_de_pitagoras_prova_geometrica",
+          "titulo": "Teorema de Pitágoras (Prova Geométrica)",
+          "arquivo": "dados/3_em/aula_20.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "3_em_relacoes_metricas_no_triangulo_retangulo",
+          "titulo": "Relações Métricas no Triângulo Retângulo",
+          "arquivo": "dados/3_em/aula_21.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "3_em_juros_simples",
+          "titulo": "Juros Simples",
+          "arquivo": "dados/3_em/aula_22.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "3_em_juros_compostos",
+          "titulo": "Juros Compostos",
+          "arquivo": "dados/3_em/aula_23.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "3_em_logaritmo_parte_1",
+          "titulo": "Logaritmo (Parte 1)",
+          "arquivo": "dados/3_em/aula_24.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "3_em_logaritmo_parte_2",
+          "titulo": "Logaritmo (Parte 2)",
+          "arquivo": "dados/3_em/aula_25.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "3_em_logaritmo_parte_3",
+          "titulo": "Logaritmo (Parte 3)",
+          "arquivo": "dados/3_em/aula_26.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "3_em_funcao_logaritmica",
+          "titulo": "Função Logarítmica",
+          "arquivo": "dados/3_em/aula_27.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "3_em_equacao_logaritmica",
+          "titulo": "Equação Logarítmica",
+          "arquivo": "dados/3_em/aula_28.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "3_em_racionalizacao_de_denominadores_revisao",
+          "titulo": "Racionalização de Denominadores (Revisão)",
+          "arquivo": "dados/3_em/aula_29.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "3_em_progressao_geometrica_introducao",
+          "titulo": "Progressão Geométrica (Introdução)",
+          "arquivo": "dados/3_em/aula_30.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "3_em_progressao_geometrica_soma_da_p_g_infinita",
+          "titulo": "Progressão Geométrica (Soma da P.G. Infinita)",
+          "arquivo": "dados/3_em/aula_31.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "3_em_teorema_de_tales_demonstracao",
+          "titulo": "Teorema de Tales (Demonstração)",
+          "arquivo": "dados/3_em/aula_32.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "3_em_teorema_de_tales",
+          "titulo": "Teorema de Tales",
+          "arquivo": "dados/3_em/aula_33.json",
+          "total_etapas": 18
+        },
+        {
+          "id": "3_em_trigonometria_no_triangulo_retangulo_e_relacao_fundamental",
+          "titulo": "Trigonometria no Triângulo Retângulo e Relação Fundamental",
+          "arquivo": "dados/3_em/aula_34.json",
+          "total_etapas": 18
+        }
+      ]
+    }
+  ]
+}

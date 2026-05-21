@@ -1,0 +1,80 @@
+.canvas-blank-area {
+    position: relative;
+    display: grid;
+    min-height: min(740px, calc(100vh - var(--topbar-height) - var(--footer-height) - 68px));
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: clamp(28px, 5vw, 64px);
+    overflow: hidden;
+    color: var(--canvas-text);
+    background:
+        linear-gradient(135deg, rgba(0, 112, 243, 0.05), transparent 28%),
+        var(--canvas-bg);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-canvas), var(--shadow-glow);
+}
+
+#canvas-content {
+    position: relative;
+    z-index: 2;
+    display: grid;
+    align-content: start;
+    gap: 22px;
+    min-height: 100%;
+}
+
+.canvas-placeholder {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    display: grid;
+    place-items: center;
+    color: #94a3b8;
+    font-size: clamp(1.35rem, 3vw, 2.4rem);
+    font-weight: 800;
+}
+
+.canvas-blank-area.has-content .canvas-placeholder {
+    display: none;
+}
+
+.lesson-shell {
+    display: grid;
+    gap: 22px;
+}
+
+.lesson-kicker {
+    color: #0070f3;
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.lesson-heading {
+    max-width: 760px;
+    color: #0f172a;
+    font-size: clamp(2rem, 5vw, 4.3rem);
+    line-height: 1.02;
+    font-weight: 800;
+    letter-spacing: 0;
+}
+
+.lesson-summary {
+    max-width: 660px;
+    color: #475569;
+    font-size: clamp(1rem, 2vw, 1.2rem);
+}
+
+.lesson-empty-state {
+    display: grid;
+    align-content: center;
+    gap: 14px;
+    min-height: 360px;
+    color: #475569;
+}
+
+.lesson-empty-state strong {
+    color: #0f172a;
+    font-size: 1.25rem;
+}
