@@ -52,6 +52,7 @@
     transform: rotate(90deg);
 }
 
+/* Lista de aulas (container colapsável) */
 .lesson-list {
     max-height: 0;
     overflow: hidden;
@@ -59,9 +60,11 @@
     transition: max-height var(--transition-smooth), opacity var(--transition-smooth);
 }
 
+/* Estado expandido: altura suficiente para conter todas as aulas */
 .series-group.is-open .lesson-list {
-    max-height: 520px;
+    max-height: 2000px;       /* ← valor grande o bastante para a maior série (29 aulas ~ 1400px) */
     opacity: 1;
+    overflow-y: auto;         /* segurança extra: se ainda ultrapassar, gera scroll interno */
 }
 
 /* =============================================
@@ -70,8 +73,7 @@
 .lesson-link {
     position: relative;
     display: flex;
-    /* Correção 3: alinha ícone e texto ao topo (títulos com várias linhas) */
-    align-items: flex-start;
+    align-items: flex-start;      /* alinha ícone e texto ao topo (títulos com várias linhas) */
     gap: 10px;
     min-height: 44px;
     margin: 6px 0 0 9px;
@@ -106,15 +108,12 @@
     height: 18px;
     flex: 0 0 auto;
     color: var(--text-tertiary);
-
-    /* Correção 4: mantém o ícone alinhado à primeira linha do texto */
     align-self: flex-start;
     margin-top: 3px;
 }
 
 /* Título da aula (quebra de linha, sem cortes) */
 .lesson-title {
-    /* Correção 5: título legível sem truncamento */
     white-space: normal;
     overflow: visible;
     word-break: break-word;
