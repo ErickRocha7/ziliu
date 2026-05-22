@@ -24,35 +24,26 @@
 
         <!-- Topbar -->
         <header class="topbar">
-
             <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
                 <i data-lucide="menu"></i>
             </button>
-
             <div class="logo">Ziliu</div>
-
             <div class="topbar-center">
                 <span class="current-series">6º Ano</span>
                 <span class="separator">›</span>
                 <span class="current-lesson">Conjuntos Numéricos</span>
             </div>
-
             <div class="user-profile">
                 <span class="avatar">M</span>
                 <span class="username">Matemática</span>
             </div>
-
         </header>
 
         <div class="app-body">
 
             <!-- Sidebar -->
             <nav class="sidebar" aria-label="Navegação de aulas">
-
-                <div class="sidebar-scroll">
-                    <!-- conteúdo renderizado dinamicamente -->
-                </div>
-
+                <div class="sidebar-scroll"></div>
             </nav>
 
             <!-- Overlay Mobile -->
@@ -60,58 +51,40 @@
 
             <!-- Main -->
             <main class="main-content">
-
                 <div class="canvas-container">
-
                     <div class="canvas-blank-area">
-
-                        <!-- área real de conteúdo -->
-                        <div id="canvas-content"></div>
-
-                        <!-- placeholder -->
+                        <!-- Área de cabeçalho fixo da aula -->
+                        <div class="lesson-header">
+                            <div class="lesson-kicker"></div>
+                            <h1 class="lesson-heading"></h1>
+                            <p class="lesson-summary"></p>
+                        </div>
+                        <!-- Palco dinâmico para o conteúdo da etapa (16:9) -->
+                        <div id="canvas-stage"></div>
+                        <!-- Placeholder (exibido apenas quando não há aula) -->
                         <div class="canvas-placeholder">
                             Selecione uma aula
                         </div>
-
                     </div>
-
                 </div>
 
                 <!-- Footer -->
                 <footer class="navigation-footer">
-
                     <div class="progress-wrapper">
-
                         <div class="progress-info">
-                            <span id="progress-text">
-                                Etapa 1 de 10
-                            </span>
+                            <span id="progress-text">Etapa 1 de 10</span>
                         </div>
-
                         <div class="progress-bar" aria-hidden="true">
                             <div class="progress-fill"></div>
                         </div>
-
                     </div>
-
                     <div class="controls-wrapper">
-
-                        <button class="nav-btn btn-secondary" id="btn-voltar">
-                            Voltar
-                        </button>
-
-                        <button class="nav-btn btn-primary" id="btn-avancar">
-                            Avançar
-                        </button>
-
+                        <button class="nav-btn btn-secondary" id="btn-voltar">Voltar</button>
+                        <button class="nav-btn btn-primary" id="btn-avancar">Avançar</button>
                     </div>
-
                 </footer>
-
             </main>
-
         </div>
-
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>

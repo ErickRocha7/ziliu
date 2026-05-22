@@ -6,41 +6,35 @@ export function atualizarCabecalho(serie, aula) {
     document.querySelector(".current-lesson").textContent = aula?.titulo || "Selecione uma aula";
 }
 
-export function renderizarMensagemCanvas(titulo, mensagem) {
-    const canvas = document.querySelector("#canvas-content");
+export function renderizarCabecalhoAula(serie, aula) {
+    const kickerEl = document.querySelector(".lesson-kicker");
+    const headingEl = document.querySelector(".lesson-heading");
+    const summaryEl = document.querySelector(".lesson-summary");
+
+    if (kickerEl) kickerEl.textContent = serie?.nome || "";
+    if (headingEl) headingEl.textContent = aula?.titulo || "";
+    if (summaryEl) summaryEl.innerHTML = aula?.descricao || "Experiência visual interativa. Avance pelas etapas.";
+
     const area = document.querySelector(".canvas-blank-area");
-
-    canvas.innerHTML = `
-        <section class="lesson-empty-state" aria-live="polite">
-            <strong>${titulo}</strong>
-            <p>${mensagem}</p>
-        </section>
-    `;
-
     area.classList.add("has-content");
-    animarEntradaCanvas(canvas);
+    animarEntradaCanvas(document.querySelector("#canvas-stage") || area);
 }
 
-export function renderizarAula({ serie, aula, dadosAula, etapaAtual }) {
-    const canvas = document.querySelector("#canvas-content");
+export function renderizarMensagemCanvas(titulo, mensagem) {
+    const header = document.querySelector(".lesson-header");
+    const stage = document.querySelector("#canvas-stage");
     const area = document.querySelector(".canvas-blank-area");
-    const totalEtapas = aula.total_etapas || dadosAula.etapas?.length || 1;
-    const etapaSegura = clamp(etapaAtual, 1, totalEtapas);
 
-    canvas.innerHTML = `
-        <section class="lesson-shell" aria-live="polite">
-            <div class="lesson-kicker">${serie.nome}</div>
-            <h1 class="lesson-heading">${aula.titulo}</h1>
-            <p class="lesson-summary">
-                A estrutura da aula foi carregada. O canvas esta pronto para receber storytelling visual,
-                KaTeX, SVGs, etapas animadas e interacoes pedagogicas nas proximas fases.
-            </p>
-        </section>
-    `;
-
+    if (header) {
+        header.innerHTML = `
+            <div class="lesson-empty-state">
+                <strong>${titulo}</strong>
+                <p>${mensagem}</p>
+            </div>
+        `;
+    }
+    if (stage) stage.innerHTML = "";
     area.classList.add("has-content");
-    atualizarProgresso(etapaSegura, totalEtapas);
-    animarEntradaCanvas(canvas);
 }
 
 export function atualizarProgresso(etapaAtual, totalEtapas) {
@@ -48,8 +42,19 @@ export function atualizarProgresso(etapaAtual, totalEtapas) {
     const totalSeguro = Math.max(totalEtapas || 1, 1);
     const porcentagem = (etapaSegura / totalSeguro) * 100;
 
-    document.querySelector("#progress-text").textContent = `Etapa ${etapaSegura} de ${totalSeguro}`;
-    document.querySelector(".progress-fill").style.width = `${porcentagem}%`;
-    document.querySelector("#btn-voltar").disabled = etapaSegura <= 1;
-    document.querySelector("#btn-avancar").textContent = etapaSegura >= totalSeguro ? "Proxima Aula ->" : "Avancar";
+    const progressText = document.querySelector("#progress-text");
+    const progressFill = document.querySelector(".progress-fill");
+    const btnVoltar = document.querySelector("#btn-voltar");
+    const btnAvancar = document.querySelector("#btn-avancar");
+
+    if (progressText) progressText.textContent = `Etapa ${etapaSegura} de ${totalSeguro}`;
+    if (progressFill) progressFill.style.width = `${porcentagem}%`;
+    if (btnVoltar) btnVoltar.disabled = etapaSegura <= 1;
+    if (btnAvancar) btnAvancar.textContent = etapaSegura >= totalSeguro ? "Próxima Aula →" : "Avançar";
+}
+
+// Função legada (compatibilidade) - remove conteúdo antigo
+export function renderizarAula({ serie, aula, dadosAula, etapaAtual }) {
+    renderizarCabecalhoAula(serie, aula);
+    atualizarProgresso(etapaAtual, aula.total_etapas || dadosAula?.etapas?.length || 1);
 }
