@@ -43,5 +43,5 @@ export function escapeHtml(valor) {
         .replaceAll("<", "&lt;")
         .replaceAll(">", "&gt;")
         .replaceAll('"', "&quot;")
-        .replaceAll("'", "&#039;");
+        .replaceAll("'", "&#39;"); /* Corrigido para neutralizar aspas simples de forma segura */
 }

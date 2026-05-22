@@ -60,11 +60,11 @@
     transition: max-height var(--transition-smooth), opacity var(--transition-smooth);
 }
 
-/* Estado expandido: altura suficiente para conter todas as aulas */
+/* Estado expandido corrigido: sem rolagem dupla e sem delay na animação de fechamento */
 .series-group.is-open .lesson-list {
-    max-height: 2000px;       /* ← valor grande o bastante para a maior série (29 aulas ~ 1400px) */
+    max-height: 80vh;         /* Limite flexível baseado na tela que mitiga o atraso visual */
     opacity: 1;
-    overflow-y: auto;         /* segurança extra: se ainda ultrapassar, gera scroll interno */
+    overflow-y: visible;       /* Delega o scroll de forma limpa para o container pai .sidebar-scroll */
 }
 
 /* =============================================
