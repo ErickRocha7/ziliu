@@ -1,4 +1,5 @@
 import { animarSidebarMobile } from "./animator.js";
+import { escapeHtml } from "./utils.js";
 
 let onSelecionarAula = null;
 let aulaAtivaId = null;
@@ -21,11 +22,11 @@ export function renderizarSidebar(manifesto) {
     const sidebarScroll = document.querySelector(".sidebar-scroll");
 
     sidebarScroll.innerHTML = (manifesto.series || []).map((serie) => `
-        <section class="series-group" data-series-id="${serie.id}">
+        <section class="series-group" data-series-id="${escapeHtml(serie.id)}">
             <button class="series-button" type="button" aria-expanded="false">
                 <span class="series-title">
                     <i data-lucide="folder"></i>
-                    <span>${serie.nome}</span>
+                    <span>${escapeHtml(serie.nome)}</span>
                 </span>
                 <i class="series-chevron" data-lucide="chevron-right"></i>
             </button>
@@ -34,14 +35,14 @@ export function renderizarSidebar(manifesto) {
                 ${(serie.aulas || []).map((aula) => `
                     <div
                         class="lesson-link"
-                        data-lesson-id="${aula.id}"
+                        data-lesson-id="${escapeHtml(aula.id)}"
                         role="button"
                         tabindex="0"
                     >
                         <span class="lesson-status" aria-hidden="true">
                             <i data-lucide="circle"></i>
                         </span>
-                        <span class="lesson-title">${aula.titulo}</span>
+                        <span class="lesson-title">${escapeHtml(aula.titulo)}</span>
                     </div>
                 `).join("")}
             </div>

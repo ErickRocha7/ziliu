@@ -1,4 +1,4 @@
-import { clamp } from "./utils.js";
+import { clamp, escapeHtml } from "./utils.js";
 import { animarEntradaCanvas } from "./animator.js";
 
 export function atualizarCabecalho(serie, aula) {
@@ -12,9 +12,9 @@ export function renderizarMensagemCanvas(titulo, mensagem) {
 
     if (stage) {
         stage.innerHTML = `
-            <div class="lesson-empty-state" style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; text-align: center;">
-                <strong style="font-size: 1.5rem; margin-bottom: 1rem;">${titulo}</strong>
-                <p style="font-size: 1.2rem; color: #475569;">${mensagem}</p>
+            <div class="lesson-empty-state">
+                <strong>${escapeHtml(titulo)}</strong>
+                <p>${escapeHtml(mensagem)}</p>
             </div>
         `;
     }

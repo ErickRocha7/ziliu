@@ -27,7 +27,7 @@ export async function carregarJson(caminho, mensagemErro) {
     const resposta = await fetch(caminho);
 
     if (!resposta.ok) {
-        throw new Error(mensagemErro || `Nao foi possivel carregar ${caminho}.`);
+        throw new Error(mensagemErro || `Não foi possível carregar ${caminho}.`);
     }
 
     return resposta.json();
@@ -35,4 +35,13 @@ export async function carregarJson(caminho, mensagemErro) {
 
 export function clamp(valor, minimo, maximo) {
     return Math.min(Math.max(valor, minimo), maximo);
+}
+
+export function escapeHtml(valor) {
+    return String(valor ?? "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
 }

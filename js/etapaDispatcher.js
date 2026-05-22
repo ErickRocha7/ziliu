@@ -1,3 +1,5 @@
+import { escapeHtml } from "./utils.js";
+
 // Mapeamento de tipos de etapa para funções de renderização
 // Cada função recebe (container, config, contexto) e retorna uma função de limpeza (opcional)
 const renderizadores = {};
@@ -58,7 +60,7 @@ export async function renderizarEtapa(etapa, contexto = {}) {
     const renderizador = renderizadores[tipo];
     if (!renderizador) {
         console.warn(`Tipo de etapa desconhecido: ${tipo}`);
-        container.innerHTML = `<div style="padding:2rem; color:red;">Renderizador não encontrado para tipo: ${tipo}</div>`;
+        container.innerHTML = `<div class="stage-error">Renderizador não encontrado para tipo: ${escapeHtml(tipo)}</div>`;
         return () => {};
     }
 

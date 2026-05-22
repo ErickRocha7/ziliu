@@ -19,7 +19,7 @@ export function carregarProgresso() {
             ...JSON.parse(bruto)
         };
     } catch (erro) {
-        console.warn("Nao foi possivel carregar o progresso local.", erro);
+        console.warn("Não foi possível carregar o progresso local.", erro);
         return { ...progressoPadrao };
     }
 }

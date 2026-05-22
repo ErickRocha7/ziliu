@@ -1,17 +1,4 @@
 {
-  "id": "6_ano_conjuntos_numericos_numeros_naturais",
-  "etapas": [
-    {
-      "tipo": "texto",
-      "config": {
-        "conteudo": "<div class='slide-capa-container'><h2 class='slide-capa-titulo'>Conjuntos numéricos</h2><p class='slide-capa-subtitulo'>Sistema de numeração<br>decimal</p></div>"
-      }
-    },
-    {
-      "tipo": "texto",
-      "config": {
-        "conteudo": "<div style='padding:2rem;'><h2>Etapa 2</h2><p>O cabeçalho normal da aula reaparecerá aqui automaticamente.</p></div>"
-      }
-    }
-  ]
+  "id": "1_em_potencia_de_base_10_e_notacao_cientifica_revisao",
+  "etapas": []
 }

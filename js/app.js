@@ -71,7 +71,6 @@ async function carregarAulaPorId(aulaId) {
         atualizarCabecalho(resultado.serie, resultado.aula);
         definirAulaAtiva(resultado.aula.id);
         
-        // === CORREÇÃO: adiciona a classe para esconder o placeholder ===
         const areaBranca = document.querySelector(".canvas-blank-area");
         if (areaBranca) areaBranca.classList.add("has-content");
         
@@ -93,9 +92,17 @@ async function renderizarEtapaAtual() {
     const etapas = estado.dadosAulaAtual.etapas || [];
     const indice = estado.etapaAtual - 1;
     const etapa = etapas[indice];
+    const stage = document.querySelector("#canvas-stage");
+
+    if (estado.limparEtapa) {
+        estado.limparEtapa();
+        estado.limparEtapa = null;
+    }
     
     if (!etapa) {
-        document.querySelector("#canvas-stage").innerHTML = `<div style="padding:2rem;">Etapa sem conteúdo definido.</div>`;
+        if (stage) {
+            stage.innerHTML = `<div class="lesson-empty-state"><strong>Etapa sem conteúdo definido.</strong><p>Esta etapa está reservada para conteúdo futuro.</p></div>`;
+        }
         return;
     }
     
@@ -103,7 +110,7 @@ async function renderizarEtapaAtual() {
     const areaBranca = document.querySelector(".canvas-blank-area");
     if (areaBranca) areaBranca.classList.add("has-content");
     
-    const limpeza = await renderizarEtapa(etapa, { limparEtapaAnterior: estado.limparEtapa });
+    const limpeza = await renderizarEtapa(etapa);
     estado.limparEtapa = limpeza;
 }
 
