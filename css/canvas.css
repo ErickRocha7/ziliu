@@ -177,3 +177,16 @@
 .slide-teorico-text:last-child {
     margin-bottom: 0;
 }
+
+/* =============================================
+   ESTILO DO SLIDE DE MATERIAL DOURADO (SLIDE 3)
+   ============================================= */
+.slide-material-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    box-sizing: border-box;
+}
