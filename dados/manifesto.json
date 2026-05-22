@@ -8,55 +8,55 @@
           "id": "6_ano_conjuntos_numericos_numeros_naturais",
           "titulo": "Conjuntos Numéricos (Números Naturais)",
           "arquivo": "dados/6_ano/aula_01.json",
-          "total_etapas": 18
+          "total_etapas": 41
         },
         {
           "id": "6_ano_conjuntos_numericos_aplicacao_do_sistema_de_numeracao_romano",
           "titulo": "Conjuntos Numéricos - Aplicação do Sistema de Numeração Romano",
           "arquivo": "dados/6_ano/aula_02.json",
-          "total_etapas": 18
+          "total_etapas": 41
         },
         {
           "id": "6_ano_conjuntos_numericos_introducao_aos_numeros_romanos",
           "titulo": "Conjuntos Numéricos (Introdução aos Números Romanos)",
           "arquivo": "dados/6_ano/aula_03.json",
-          "total_etapas": 18
+          "total_etapas": 33
         },
         {
           "id": "6_ano_multiplicacao_de_numeros_decimais_naturais_por_decimais_e_decimais_por_decimais",
           "titulo": "Multiplicação de Números Decimais (Naturais por Decimais e Decimais por Decimais)",
           "arquivo": "dados/6_ano/aula_04.json",
-          "total_etapas": 18
+          "total_etapas": 45
         },
         {
           "id": "6_ano_numeros_decimais_multiplicacao_e_divisao_na_base_10",
           "titulo": "Números Decimais (Multiplicação e Divisão na Base 10)",
           "arquivo": "dados/6_ano/aula_05.json",
-          "total_etapas": 18
+          "total_etapas": 28
         },
         {
           "id": "6_ano_representacao_dos_numeros_decimais_exatos_na_reta_numerica",
           "titulo": "Representação dos Números Decimais Exatos na Reta Numérica",
           "arquivo": "dados/6_ano/aula_06.json",
-          "total_etapas": 18
+          "total_etapas": 7
         },
         {
           "id": "6_ano_fracao_introducao",
           "titulo": "Fração - Introdução",
           "arquivo": "dados/6_ano/aula_07.json",
-          "total_etapas": 18
+          "total_etapas": 25
         },
         {
           "id": "6_ano_fracao_classificacao_propria_impropria_aparente_mista",
           "titulo": "Fração - Classificação (Própria, Imprópria, Aparente, Mista)",
           "arquivo": "dados/6_ano/aula_08.json",
-          "total_etapas": 18
+          "total_etapas": 26
         },
         {
           "id": "6_ano_fracao_equivalente_e_simplificacao_de_fracao",
           "titulo": "Fração Equivalente e Simplificação de Fração",
           "arquivo": "dados/6_ano/aula_09.json",
-          "total_etapas": 18
+          "total_etapas": 27
         },
         {
           "id": "6_ano_fracao_adicao_e_subtracao",
@@ -68,115 +68,115 @@
           "id": "6_ano_fracao_mista_calculo",
           "titulo": "Fração Mista - Cálculo",
           "arquivo": "dados/6_ano/aula_11.json",
-          "total_etapas": 18
+          "total_etapas": 46
         },
         {
           "id": "6_ano_como_encontrar_os_divisores_de_um_numero_natural",
           "titulo": "Como Encontrar os Divisores de um Número Natural",
           "arquivo": "dados/6_ano/aula_12.json",
-          "total_etapas": 18
+          "total_etapas": 14
         },
         {
           "id": "6_ano_numero_de_divisores_de_um_numero_natural",
           "titulo": "Número de Divisores de um Número Natural",
           "arquivo": "dados/6_ano/aula_13.json",
-          "total_etapas": 18
+          "total_etapas": 35
         },
         {
           "id": "6_ano_introducao_a_potencia_e_propriedades_multiplicacao_e_divisao_de_potencia_de_mesma_base",
           "titulo": "Introdução à Potência e Propriedades (Multiplicação e Divisão de Potência de Mesma Base)",
           "arquivo": "dados/6_ano/aula_14.json",
-          "total_etapas": 18
+          "total_etapas": 12
         },
         {
           "id": "6_ano_potenciacao_de_fracoes",
           "titulo": "Potenciação de Frações",
           "arquivo": "dados/6_ano/aula_15.json",
-          "total_etapas": 18
+          "total_etapas": 12
         },
         {
           "id": "6_ano_dizimas_periodicas",
           "titulo": "Dízimas Periódicas",
           "arquivo": "dados/6_ano/aula_16.json",
-          "total_etapas": 18
+          "total_etapas": 21
         },
         {
           "id": "6_ano_dizimas_periodicas_fracao_geratriz",
           "titulo": "Dízimas Periódicas (Fração Geratriz)",
           "arquivo": "dados/6_ano/aula_17.json",
-          "total_etapas": 18
+          "total_etapas": 12
         },
         {
           "id": "6_ano_plano_cartesiano",
           "titulo": "Plano Cartesiano",
           "arquivo": "dados/6_ano/aula_18.json",
-          "total_etapas": 18
+          "total_etapas": 36
         },
         {
           "id": "6_ano_angulos",
           "titulo": "Ângulos",
           "arquivo": "dados/6_ano/aula_19.json",
-          "total_etapas": 18
+          "total_etapas": 15
         },
         {
           "id": "6_ano_geometria_espacial_definicao_elementos_primitivos_ponto_reta_plano",
           "titulo": "Geometria Espacial - Definição Elementos Primitivos (Ponto, Reta, Plano)",
           "arquivo": "dados/6_ano/aula_20.json",
-          "total_etapas": 18
+          "total_etapas": 36
         },
         {
           "id": "6_ano_geometria_espacial_posicao_relativa_entre_duas_retas_e_um_plano",
           "titulo": "Geometria Espacial - Posição Relativa entre Duas Retas e um Plano",
           "arquivo": "dados/6_ano/aula_21.json",
-          "total_etapas": 18
+          "total_etapas": 19
         },
         {
           "id": "6_ano_geometria_espacial_semirreta_e_segmento_de_reta",
           "titulo": "Geometria Espacial - Semirreta e Segmento de Reta",
           "arquivo": "dados/6_ano/aula_22.json",
-          "total_etapas": 18
+          "total_etapas": 22
         },
         {
           "id": "6_ano_poligonos_definicao_elementos_e_classificacao",
           "titulo": "Polígonos (Definição, Elementos e Classificação)",
           "arquivo": "dados/6_ano/aula_23.json",
-          "total_etapas": 18
+          "total_etapas": 26
         },
         {
           "id": "6_ano_triangulos",
           "titulo": "Triângulos",
           "arquivo": "dados/6_ano/aula_24.json",
-          "total_etapas": 18
+          "total_etapas": 32
         },
         {
           "id": "6_ano_media_aritmetica",
           "titulo": "Média Aritmética",
           "arquivo": "dados/6_ano/aula_25.json",
-          "total_etapas": 18
+          "total_etapas": 17
         },
         {
           "id": "6_ano_estatistica",
           "titulo": "Estatística",
           "arquivo": "dados/6_ano/aula_26.json",
-          "total_etapas": 18
+          "total_etapas": 27
         },
         {
           "id": "6_ano_circunferencia_e_circulo",
           "titulo": "Circunferência e Círculo",
           "arquivo": "dados/6_ano/aula_27.json",
-          "total_etapas": 18
+          "total_etapas": 23
         },
         {
           "id": "6_ano_medidas_de_comprimento_transformacao",
           "titulo": "Medidas de Comprimento (Transformação)",
           "arquivo": "dados/6_ano/aula_28.json",
-          "total_etapas": 18
+          "total_etapas": 34
         },
         {
           "id": "6_ano_medidas_de_superficie_transformacao",
           "titulo": "Medidas de Superfície (Transformação)",
           "arquivo": "dados/6_ano/aula_29.json",
-          "total_etapas": 18
+          "total_etapas": 17
         }
       ]
     },

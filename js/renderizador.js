@@ -6,35 +6,24 @@ export function atualizarCabecalho(serie, aula) {
     document.querySelector(".current-lesson").textContent = aula?.titulo || "Selecione uma aula";
 }
 
-export function renderizarCabecalhoAula(serie, aula) {
-    const kickerEl = document.querySelector(".lesson-kicker");
-    const headingEl = document.querySelector(".lesson-heading");
-    const summaryEl = document.querySelector(".lesson-summary");
-
-    if (kickerEl) kickerEl.textContent = serie?.nome || "";
-    if (headingEl) headingEl.textContent = aula?.titulo || "";
-    if (summaryEl) summaryEl.innerHTML = aula?.descricao || "Experiência visual interativa. Avance pelas etapas.";
-
-    const area = document.querySelector(".canvas-blank-area");
-    area.classList.add("has-content");
-    animarEntradaCanvas(document.querySelector("#canvas-stage") || area);
-}
-
 export function renderizarMensagemCanvas(titulo, mensagem) {
-    const header = document.querySelector(".lesson-header");
     const stage = document.querySelector("#canvas-stage");
     const area = document.querySelector(".canvas-blank-area");
 
-    if (header) {
-        header.innerHTML = `
-            <div class="lesson-empty-state">
-                <strong>${titulo}</strong>
-                <p>${mensagem}</p>
+    if (stage) {
+        stage.innerHTML = `
+            <div class="lesson-empty-state" style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; text-align: center;">
+                <strong style="font-size: 1.5rem; margin-bottom: 1rem;">${titulo}</strong>
+                <p style="font-size: 1.2rem; color: #475569;">${mensagem}</p>
             </div>
         `;
     }
-    if (stage) stage.innerHTML = "";
-    area.classList.add("has-content");
+    
+    if (area) {
+        area.classList.add("has-content");
+    }
+    
+    animarEntradaCanvas(stage);
 }
 
 export function atualizarProgresso(etapaAtual, totalEtapas) {
@@ -51,10 +40,4 @@ export function atualizarProgresso(etapaAtual, totalEtapas) {
     if (progressFill) progressFill.style.width = `${porcentagem}%`;
     if (btnVoltar) btnVoltar.disabled = etapaSegura <= 1;
     if (btnAvancar) btnAvancar.textContent = etapaSegura >= totalSeguro ? "Próxima Aula →" : "Avançar";
-}
-
-// Função legada (compatibilidade) - remove conteúdo antigo
-export function renderizarAula({ serie, aula, dadosAula, etapaAtual }) {
-    renderizarCabecalhoAula(serie, aula);
-    atualizarProgresso(etapaAtual, aula.total_etapas || dadosAula?.etapas?.length || 1);
 }

@@ -2,9 +2,10 @@
 // Cada função recebe (container, config, contexto) e retorna uma função de limpeza (opcional)
 const renderizadores = {};
 
-// Renderizador padrão: texto simples (fallback)
+// Renderizador padrão: texto/HTML – sem wrapper forçado
 renderizadores.texto = (container, config) => {
-    container.innerHTML = `<div style="padding: 2rem; font-size: 1.2rem;">${config.conteudo || "Conteúdo em desenvolvimento"}</div>`;
+    // O conteúdo já deve ter suas próprias classes e estilos
+    container.innerHTML = config.conteudo || "Conteúdo em desenvolvimento";
     return () => {}; // sem limpeza especial
 };
 

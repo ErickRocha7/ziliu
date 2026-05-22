@@ -1,6 +1,6 @@
 import { salvarProgresso, carregarProgresso } from "./armazenamento.js";
 import { configurarNavegacao, definirAulaAtiva, renderizarSidebar, alternarSidebarMobile } from "./navegacao.js";
-import { atualizarCabecalho, atualizarProgresso, renderizarCabecalhoAula, renderizarMensagemCanvas } from "./renderizador.js";
+import { atualizarCabecalho, atualizarProgresso, renderizarMensagemCanvas } from "./renderizador.js";
 import { animarFeedbackBotao } from "./animator.js";
 import { buscarAulaNoManifesto, carregarJson, clamp, primeiraAula } from "./utils.js";
 import { configurarTeclado } from "./teclado.js";
@@ -12,7 +12,7 @@ const estado = {
     serieAtual: null,
     dadosAulaAtual: null,
     etapaAtual: 1,
-    limparEtapa: null      // função de cleanup do renderizador atual
+    limparEtapa: null
 };
 
 document.addEventListener("DOMContentLoaded", iniciarApp);
@@ -60,7 +60,6 @@ async function carregarAulaPorId(aulaId) {
     try {
         const dadosAula = await carregarJson(resultado.aula.arquivo, "Não foi possível carregar o arquivo da aula.");
 
-        // Limpa o renderizador anterior se existir
         if (estado.limparEtapa) estado.limparEtapa();
         
         estado.serieAtual = resultado.serie;
@@ -69,17 +68,15 @@ async function carregarAulaPorId(aulaId) {
         estado.etapaAtual = 1;
         estado.limparEtapa = null;
 
-        // Atualiza cabeçalho da página e sidebar
         atualizarCabecalho(resultado.serie, resultado.aula);
         definirAulaAtiva(resultado.aula.id);
         
-        // Renderiza cabeçalho da aula (kicker, título, resumo)
-        renderizarCabecalhoAula(resultado.serie, resultado.aula);
+        // === CORREÇÃO: adiciona a classe para esconder o placeholder ===
+        const areaBranca = document.querySelector(".canvas-blank-area");
+        if (areaBranca) areaBranca.classList.add("has-content");
         
-        // Renderiza a primeira etapa
         await renderizarEtapaAtual();
         
-        // Atualiza barra de progresso
         const total = obterTotalEtapas();
         atualizarProgresso(estado.etapaAtual, total);
         
@@ -102,7 +99,10 @@ async function renderizarEtapaAtual() {
         return;
     }
     
-    // Chama o despachante, que retorna uma função de limpeza
+    // Garantia extra: a classe já foi adicionada em carregarAulaPorId, mas reforça
+    const areaBranca = document.querySelector(".canvas-blank-area");
+    if (areaBranca) areaBranca.classList.add("has-content");
+    
     const limpeza = await renderizarEtapa(etapa, { limparEtapaAnterior: estado.limparEtapa });
     estado.limparEtapa = limpeza;
 }
@@ -132,7 +132,6 @@ function avancarEtapa() {
     if (!estado.aulaAtual) return;
     const total = obterTotalEtapas();
     if (estado.etapaAtual >= total) {
-        // TODO: avançar para próxima aula (opcional)
         return;
     }
     
